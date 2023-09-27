@@ -6,6 +6,6 @@
 npm install --global yarn
 
 yarn install
-npm build
-yarn start
+yarn build
+yarn
 ```
