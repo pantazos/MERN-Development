@@ -1,9 +1,9 @@
 import _axios from "axios";
 
 if (import.meta.env.MODE != "development") {
-    console.log("Is prod.");
+    console.log("PROD Environment.");
 } else {
-    console.log("Is dev.");
+    console.log("DEV Environment.");
 }
 
 const axios = _axios.create({
